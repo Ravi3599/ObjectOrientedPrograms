@@ -27,7 +27,7 @@ public class Account {
 
     }
     
-    public void buyStock(int bal) {
+    public void debit(int bal) {
         int currentBalance = bal;
         System.out.println("Which stock you want to buy");
         String shareName = sc.next();

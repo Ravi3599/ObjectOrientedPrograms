@@ -20,7 +20,7 @@ public class StockPortfolio {
 	              account.printReport();
 	              break;
 	          case 2:
-	              account.buyStock(balance);
+	              account.debit(balance);
 	              break;
 	          case 3:
 	                account.totalValueOfStock();
